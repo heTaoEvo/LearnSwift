@@ -12,19 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("nihas");
-        var MyNumber:float_t = 34
-        MyNumber = 33
-        print(MyNumber);
-        
-        let label = "nihao"
-        
-        
-        
-        let number = 111
-        
-        let ddd = label + String(number)
-        print(ddd)
+        var userIsInTheMiddleOfTyping = false;
+        if !userIsInTheMiddleOfTyping {
+            userIsInTheMiddleOfTyping = true;
+            let digit = "dasfsdfas"
+            
+            
+            print(digit)
+            
+            
+        }
         
         
     }
